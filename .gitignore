@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+
+# Build
+dist/
+build/
+
+# Environment (never commit real values)
+.env
+.env.local
+.env.*.local
+# MCP / OAuth credentials (sensitive! repo has mcp.json with placeholders only)
+.gmail-credentials.json
+credentials.json
+gcp-oauth.keys.json
+*.keys.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Vercel
+.vercel

@@ -1,0 +1,24 @@
+{
+  "name": "@gmail/mcp-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup": "npx tsx scripts/setup-oauth.ts"
+  },
+  "dependencies": {
+    "googleapis": "^146.0.0",
+    "mcp-handler": "^1.0.7",
+    "next": "^15.3.3",
+    "zod": "^3.25.56"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "@types/react": "19.2.9",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3"
+  }
+}
